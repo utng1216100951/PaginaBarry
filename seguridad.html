@@ -40,18 +40,124 @@
 
     <ul class="collapsible popout">
         <li>
-          <div class="collapsible-header"><i class="material-icons">filter_drama</i>First</div>
-          <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+          <div class="collapsible-header"><i class="material-icons">filter_dram</i>
+            <b>Problemas principales en la programación de sistemas web</b></div>
+          <div class="collapsible-body">
+            <span>
+              <p>Gran parte de los problemas de seguridad en las aplicaciones
+                web son causados por la falta de seguimiento en dos rubros muy
+                importantes de los que depende cualquier aplicación, las
+                entradas y salidas del sistema.<br>
+                Además de verificar estos 2 rubros, es importante considerar la
+                exposición accidental de datos que pueden ser empleados en un
+                posible ataque sobre el sistema. Los mensajes de error enviados
+                por el servidor, que suelen ser de gran utilidad durante el
+                proceso de desarrollo de la aplicación, pueden ser empleados
+                maliciosamente cuando siguen apareciendo en un entorno de
+                producción, por lo que es necesario deshabilitar todos estos
+                mensajes y editar algunos otros (como los que se envían cuando
+                el servidor no encuentra algún archivo en particular) los cuales
+                también pueden ser utilizados por los atacantes para obtener
+                información sobre nuestro sistema.
+              </p>
+              <br>
+              <img src="img/sistemasweb.png" >
+            </span>
+          </div>
         </li>
         <li>
-          <div class="collapsible-header"><i class="material-icons">place</i>Second</div>
-          <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+          <div class="collapsible-header"><i class="material-icons">place</i>
+            <b>Prácticas básicas de seguridad web</b></div>
+          <div class="collapsible-body">
+            <span>
+              <b>2.1 Balancear riesgo y usabilidad</b><br>
+              <p>Si bien la usabilidad y la seguridad en una aplicación web no
+                son excluyentes una de la otra, alguna medida tomada para
+                incrementar la seguridad con frecuencia afecta la usabilidad.
+                Normalmente siempre se debe pensar en las maneras en que
+                usuarios ilegítimos nos pueden atacar y la facilidad de uso para
+                los usuarios legítimos.Es conveniente emplear medidas de
+                seguridad que sean transparentes a los usuarios y que no
+                resulten engorrosas en su empleo. Por ejemplo, el uso de un
+                login que solicita el nombre de usuario y contraseña<br>
+              </p>
+              <b>2.2 Rastrear el paso de los datos</b>
+              <p>Es muy importante mantener conocimiento de los pasos que ha
+                recorrido la información en todo momento. Conocer de dónde
+                vienen los datos y hacia dónde van. En muchas ocasiones lograr
+                esto puede ser complicado, especialmente sin un conocimiento
+                profundo de cómo funcionan las aplicaciones web.<br>
+                En las aplicaciones web, existen maneras de distinguir los
+                orígenes de los datos y poder así reconocer cuando los datos
+                pueden ser dignos de confianza y cuando no.
+              </p>
+              <b>2.3 Filtrar entradas</b>
+              <p>El filtrado es una de las piedras angulares de la seguridad en
+                aplicaciones web. Es el proceso por el cual se prueba la validez
+                de los datos. Si nos aseguramos que los datos son filtrados
+                apropiadamente al entrar, podemos eliminar el riesgo de que
+                datos contaminados sean usados para provocar funcionamientos
+                no deseados en la aplicación.
+              </p>
+              <b>2.4 Escapado de salidas</b>
+              <p>Otro punto importante de la seguridad es el proceso de escapado
+                y su contraparte para codificar o decodificar caracteres
+                especiales de tal forma que su significado original sea
+                preservado. Si llegamos a utilizar una codificación en
+                particular es necesario conocer los caracteres reservados los
+                cuales serán necesarios escapar.
+                El proceso de escapado debe estar compuesto a su vez por los
+                siguientes pasos:<br><br>
+
+                * Identificar las salidas.<br>
+                * Escapar las salidas.<br>
+                * Distinguir entre datos escapados y no escapados.<br>
+              </p>
+            </span>
+          </div>
         </li>
         <li>
-          <div class="collapsible-header"><i class="material-icons">whatshot</i>Third</div>
-          <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+          <div class="collapsible-header"><i class="material-icons">whatshot</i>
+            <b>Clasificacion de ataques web.</b></div>
+          <div class="collapsible-body">
+            <span>
+              <b>3.1 Ataques URL de tipo semántico.</b>
+              <p>Este tipo de ataques involucran a un usuario modificando la
+                URL a modo de descubrir acciones a realizar que originalmente
+                no están planeadas para ser manejadas correctamente por el
+                servidor. La implementación de cualquier formulario debe
+                contemplar validaciones necesarias para evitar el esas acciones
+                y se deben realizar adecuaciones de acuerdo a nuestras entradas.
+              </p>
+              <b>3.2  Ataques de Cross-Site Scripting</b>
+              <p>Cross-Site Scripting (XSS) es un tipo de vulnerabilidad de
+                seguridad informática típicamente encontrada en aplicaciones web
+                que permiten la inyección de código por usuarios maliciosos en
+                páginas web. Los atacantes típicamente se valen de código HTML y
+                de scripts ejecutados en el cliente.</p>
+              <b>3.3 Ataques de Cross-Site Request Forgery</b>
+              <p>Este tipo de ataque permite al atacante enviar peticiones HTTP
+                a voluntad desde la máquina de la víctima. Es difícil determinar
+                cuándo una petición HTML se ha originado por un ataque de este
+                tipo.
+                Cuando un atacante conoce el formato que debe tener una URL para
+                lograr la ejecución de una acción en el sistema, ha logrado
+                encontrar la posibilidad de explotar este tipo de ataques.
+                Ahora lo que necesita el atacante es simplemente hacer que una
+                víctima visite la URL.</p>
+                <b>3.4 Peticiones HTTP falsificadas</b>
+                <p>Un ataque más sofisticado que el anterior es enviar
+                  peticiones falsas empleando herramientas especiales para este
+                  propósito.<br>
+                  Para ello, se emplean herramientas de línea de comandos o
+                  plugins agregados a los navegadores, con estos se pone a la
+                  escucha de los servicios web que típicamente se conectan a
+                  través del puerto 80.</p>
+            </span>
+          </div>
         </li>
       </ul>
+      <br><br>
   <footer class="page-footer colfoot">
 
           <div class="footer-copyright">
