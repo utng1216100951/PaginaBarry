@@ -1,0 +1,99 @@
+body{
+	font-family: Century Gothic, "Times New Roman", Times;
+	background-color: #f2f4fb
+}
+
+table, td{
+	border: 0.5px solid black;
+	align-content: center;
+}
+
+h1,h2,p,table{
+	color: #000000
+}
+
+p{
+	color: #000000;
+
+}
+
+img{
+	display:block;
+	margin:auto;
+}
+
+footer{
+	background-color: #085f63;
+	color: #FFFFFF
+}
+
+ul{
+	padding-left: 3em;
+}
+
+li{
+	color: #000000;
+
+}
+
+#menu{
+	background-color: #000000;
+
+}
+
+#menu ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#menu ul li{
+	display: inline-block;
+}
+
+#menu ul li a{
+	color: #FFFFFF;
+	text-decoration: none;
+	padding: 15px;
+	display: block;
+}
+
+#menu ul li a:hover{
+	background-color: #FFFFFF;
+	color: #000000;
+}
+
+#img-text{
+	text-align: center;
+}
+
+.colnav{
+	background-color: #5c8d89;
+}
+
+.colfoot{
+	background-color: #01676b;
+}
+
+.body{
+	padding-left: 11em;
+	padding-right: 11em;
+}
+
+.cardcent{
+	padding-left: 30em;
+}
+
+.colrow2{
+	background-color: #d65a31;
+	color: #FFFFFF;
+}
+
+.colrow1{
+	background-color: #226b80;
+	color: #f1f1f1;
+}
+
+.cardspace{
+	padding-left: 16em;
+}
